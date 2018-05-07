@@ -1,0 +1,11 @@
+var expect = require('chai').expect;
+
+describe('dustin', function() {
+    it('select private customer', function () {
+        browser.url('https://www.dustin.se');
+        $(".modal-dialog > a:contains('Privatperson')").click();
+
+    });
+});
+
+
